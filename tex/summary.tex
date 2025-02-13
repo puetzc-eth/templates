@@ -1,58 +1,33 @@
 \documentclass[a4paper,11pt]{scrartcl}
 
-\include{header}
+\include{../header}
 
-\begin{document}    %-------------------------------------------------------------
+\begin{document}    
 \thispagestyle{empty}
 
 \begin{center}
-\begin{LARGE}\sectfont
-Algorithms and Programming in Chemistry
-\end{LARGE}\\\vspace{0.5cm}
-Connor Pütz (\textit{puetzc@ethz.ch})
-\\\vspace{1cm}
+    \begin{LARGE}\sectfont
+        Algorithms and Programming in Chemistry
+    \end{LARGE}\\
+    \vspace{0.5cm}
+        Connor Pütz (\textit{puetzc@ethz.ch})\\
+    \vspace{1cm}
 \end{center}
 
 \tableofcontents
 
-% tex: nichts
-% src: nichts
-\newpage\section{Introduction}\input{tex/intro}
+\newpage\section{First Section}
 
-% tex: Ca. Hälfte
-% src: mehr als hälfte
-\newpage\section{Design of Algorithms}\input{tex/algorithms}
+    \subsection{First Subsection}
 
-% tex: Ca. Hälfte
-% src: mehr als hälfte
-\newpage\section{Data Structures}\input{tex/data}
+    \deff{Definitions}{What is a definition?}
 
-% tex: 
-% src: 
-\newpage\section{Searching and Sorting}\input{tex/search}
+    Formulas:
+    \begin{align}
+        &\ima\hbar\dede{}{t}\Psirm=\widehat{H}\Psirm&\Rightarrow&&E\psi=-\frac{\hbar^2}{2m}\left(\parpar{^2}{x^2}+\parpar{^2}{y^2}\right)\psi
+    \end{align}
 
-% tex: So gut wie fertig (einmal noch drüberlesen)
-% src: fertig (nur noch bisschen auskommentieren)
-\newpage\section{Graphs}\input{tex/graphs}
-
-% tex: fertig
-% src: fertig
-\newpage\section{Approximation Algorithms}\input{tex/approximation}
-
-% tex: 
-% src: 
-\newpage\section{Numerical Algorithms}\input{tex/numerical}
-
-% tex: fast ferting bis auf clustering
-% src: fertig (im Grunde nichts)
-\newpage\section{Algorithms in Cheminformatics}\input{tex/cheminformatics}
-
-% tex: nichts
-% src: nichts
-\newpage\section{Introduction to Machine-Learning}\input{tex/machine}
-
-% tex: nichts
-% src: nichts
-\newpage\section{Algorithms in Bioinformatics}\input{tex/bioinformatics}
+    Tables:
+    
 
 \end{document}
